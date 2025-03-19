@@ -1,2 +1,5 @@
-print('Olá Mundo!')
-print('Me chamo Leonardo')
+nome = input('Digite seu nome: ')
+peso = float(input('Informe seu peso : '))
+alt = float(input('Informe sua Altura : '))
+imc = peso/(alt**2)
+print ('{} com {:.2f}Kg e {:.2f}cm de altura seu IMC é {:.2f}'.format(nome, peso, alt, imc))
