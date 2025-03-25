@@ -7,4 +7,4 @@ svf = float(segundo_valor)
 if pvf > svf:
     print(f'O primeiro valor: {pvf} é maior que o segundo valor: {svf}')
 elif svf > pvf:
-    print(f'O segundo valor: {svf} é maior que o primeiro valor: {pvf}')
+    print(f'O segundo valor: {svf:.1f} é maior que o primeiro valor: {pvf:.1f}')
